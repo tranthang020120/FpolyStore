@@ -6,7 +6,7 @@ package com.fstore.model;
 
 /**
  *
- * @author Admin
+ * @author ThongHTPH43253
  */
 public class ChatLieu {
     private int ID_ChatLieu;
