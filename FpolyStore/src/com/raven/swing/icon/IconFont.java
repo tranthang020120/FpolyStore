@@ -1,4 +1,4 @@
-package com.ui.swing.icon;
+package com.raven.swing.icon;
 
 import java.io.InputStream;
 

@@ -1,7 +1,7 @@
 package com.UI.dialog;
 
-import com.ui.swing.icon.GoogleMaterialDesignIcons;
-import com.ui.swing.icon.IconFontSwing;
+import com.raven.swing.icon.GoogleMaterialDesignIcons;
+import com.raven.swing.icon.IconFontSwing;
 import java.awt.Color;
 import org.jdesktop.animation.timing.Animator;
 import org.jdesktop.animation.timing.TimingTarget;
