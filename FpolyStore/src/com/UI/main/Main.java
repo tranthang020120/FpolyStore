@@ -4,6 +4,9 @@ import com.UI.component.Header;
 import com.UI.component.Menu;
 import com.UI.event.EventMenuSelected;
 import com.UI.event.EventShowPopupMenu;
+import com.UI.form.ChiTietSanPham_Panel;
+import com.UI.form.QLThuocTinhSanPham;
+import com.UI.form.SanPham_Panel;
 import com.ui.form.Form1;
 import com.ui.form.Form_Home;
 import com.ui.form.MainForm;
@@ -14,6 +17,7 @@ import com.raven.swing.icon.IconFontSwing;
 import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.JFrame;
 import net.miginfocom.swing.MigLayout;
 import org.jdesktop.animation.timing.Animator;
 import org.jdesktop.animation.timing.TimingTarget;
@@ -33,7 +37,9 @@ public class Main extends javax.swing.JFrame {
     }
 
     private void init() {
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
         layout = new MigLayout("fill", "0[]0[100%, fill]0", "0[fill, top]0");
+        
         bg.setLayout(layout);
         menu = new Menu();
         header = new Header();
@@ -43,10 +49,18 @@ public class Main extends javax.swing.JFrame {
             public void menuSelected(int menuIndex, int subMenuIndex) {
                 System.out.println("Menu Index : " + menuIndex + " SubMenu Index " + subMenuIndex);
                 if (menuIndex == 0) {
-                    if (subMenuIndex == 0) {
+                    if (subMenuIndex == -1) {
                         main.showForm(new Form_Home());
                     } else if (subMenuIndex == 1) {
                         main.showForm(new Form1());
+                    }
+                }if(menuIndex ==1){
+                    if(subMenuIndex == 2){
+                        main.showForm(new QLThuocTinhSanPham());
+                    }else if(subMenuIndex == 0){
+                        main.showForm(new SanPham_Panel());
+                    }else if(subMenuIndex == 1){
+                        main.showForm(new ChiTietSanPham_Panel());
                     }
                 }
             }
