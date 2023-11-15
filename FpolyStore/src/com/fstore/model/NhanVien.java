@@ -8,7 +8,7 @@ import java.util.Date;
  * @author ThongPH43253
  */
 public class NhanVien {
-    private String maNV, ten, diaChi,SDT, matKhau,email;
+    private String maNV, ten, diaChi,SDT, matKhau,email, hinhAnh;
     private boolean gioiTinh,vaiTro;
     private int trangThai;
     private Date ngaySinh;
@@ -16,13 +16,14 @@ public class NhanVien {
     public NhanVien() {
     }
 
-    public NhanVien(String maNV, String ten, String diaChi, String SDT, String matKhau, String email, boolean gioiTinh, boolean vaiTro, int trangThai, Date ngaySinh) {
+    public NhanVien(String maNV, String ten, String diaChi, String SDT, String matKhau, String email, String hinhAnh, boolean gioiTinh, boolean vaiTro, int trangThai, Date ngaySinh) {
         this.maNV = maNV;
         this.ten = ten;
         this.diaChi = diaChi;
         this.SDT = SDT;
         this.matKhau = matKhau;
         this.email = email;
+        this.hinhAnh = hinhAnh;
         this.gioiTinh = gioiTinh;
         this.vaiTro = vaiTro;
         this.trangThai = trangThai;
@@ -77,6 +78,14 @@ public class NhanVien {
         this.email = email;
     }
 
+    public String getHinhAnh() {
+        return hinhAnh;
+    }
+
+    public void setHinhAnh(String hinhAnh) {
+        this.hinhAnh = hinhAnh;
+    }
+
     public boolean isGioiTinh() {
         return gioiTinh;
     }
@@ -108,6 +117,8 @@ public class NhanVien {
     public void setNgaySinh(Date ngaySinh) {
         this.ngaySinh = ngaySinh;
     }
+
+   
 
     
     

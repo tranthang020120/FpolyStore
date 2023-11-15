@@ -5,6 +5,8 @@ import com.UI.component.Menu;
 import com.UI.event.EventMenuSelected;
 import com.UI.event.EventShowPopupMenu;
 import com.UI.form.ChiTietSanPham_Panel;
+import com.UI.form.KhachHang_Panel;
+import com.UI.form.NhanVien_Panel;
 import com.UI.form.QLThuocTinhSanPham;
 import com.UI.form.SanPham_Panel;
 import com.ui.form.Form1;
@@ -62,6 +64,10 @@ public class Main extends javax.swing.JFrame {
                     }else if(subMenuIndex == 1){
                         main.showForm(new ChiTietSanPham_Panel());
                     }
+                }else if(menuIndex == 5){
+                    main.showForm(new NhanVien_Panel());
+                }else if(menuIndex == 6){
+                    main.showForm(new KhachHang_Panel());
                 }
             }
         });

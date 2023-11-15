@@ -55,12 +55,13 @@ public class Menu extends javax.swing.JPanel {
 
     public void initMenuItem() {
         addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/icons8-home-50.png")), "Trang chủ"));
-        addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/icons8-product-20.png")), "QUẢN LÝ SẢN PHẨM", "SẢN PHẨM", "CHI TIẾT SẢN PHẨM", "QUẢN LÝ HÃNG CUNG CẤP"));
+        addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/icons8-product-20.png")), "QUẢN LÝ SẢN PHẨM", "SẢN PHẨM", "CHI TIẾT SẢN PHẨM", "THUỘC TÍNH SẢN PHẨM"));
         addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/3.png")), "QUẢN LÝ BÁN HÀNG", "BÁN HÀNG", "ĐỔI HÀNG"));
         addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/4.png")), "QUẢN LÝ HÓA ĐƠN", "HÓA ĐƠN BÁN HÀNG", "HÓA ĐƠN ĐỔI HÀNG"));
         addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/5.png")), "QUẨN LÝ THÔNG KÊ", "THEO DOANH THU BÁN HÀNG", "THEO DOANH SỐ BÁN HÀNG"));
-        addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/6.png")), "QUẢN LÝ NHÂN VIÊN", "DANH SÁCH NHÂN VIÊN"));
-        addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/7.png")), "THÔNG TỊN CÁ NHÂN", "THÔNG TIN", "ĐỔI MẬT KHẨU"));
+        addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/6.png")), "QUẢN LÝ NHÂN VIÊN"));
+        addMenu(new ModelMenu(new ImageIcon(getClass().getResource("")),"Quản lý khách hàng"));
+        addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/7.png")), "THÔNG TIN CÁ NHÂN", "THÔNG TIN", "ĐỔI MẬT KHẨU"));
         addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/8.png")), "KHUYÊN MÃI", "QUẢN LÝ SALE", "QUẢN LÝ VOUCHER"));
         addMenu(new ModelMenu(new ImageIcon(getClass().getResource("/com/raven/icon/9.png")), "THOÁT")); 
     }
