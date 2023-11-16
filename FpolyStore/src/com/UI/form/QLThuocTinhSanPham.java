@@ -12,7 +12,7 @@ import java.awt.CardLayout;
  */
 public class QLThuocTinhSanPham extends javax.swing.JPanel {
     private static CardLayout cardLayout = new CardLayout();
-    private LoaiSanPham loaiSPPnl = new LoaiSanPham();
+    private DanhMuc_Panel loaiSPPnl = new DanhMuc_Panel();
     private Size_Panel size_Panel = new Size_Panel();
     private ChatLieu_Panel chatLieu_Panel = new ChatLieu_Panel();
     private MauSac_Panel mauSac_Panel = new MauSac_Panel();
