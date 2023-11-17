@@ -128,6 +128,8 @@ public class Form_Home extends javax.swing.JPanel implements Runnable{
                 .addComponent(noticeBoard, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+
         lblDongHo.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         lblDongHo.setForeground(new java.awt.Color(0, 204, 204));
         lblDongHo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
