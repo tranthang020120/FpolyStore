@@ -8,6 +8,7 @@ import java.util.Date;
  * @author ThongPH43253
  */
 public class NhanVien {
+    //Test
     private String maNV, ten, diaChi,SDT, matKhau,email, hinhAnh;
     private boolean gioiTinh,vaiTro;
     private int trangThai;
