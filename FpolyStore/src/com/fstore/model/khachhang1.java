@@ -9,5 +9,5 @@ package com.fstore.model;
  * @author tranthang
  */
 public class khachhang1 {
-    
+    //test123
 }
