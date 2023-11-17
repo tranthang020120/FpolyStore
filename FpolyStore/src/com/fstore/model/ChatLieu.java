@@ -53,7 +53,7 @@ public class ChatLieu {
 
     @Override
     public String toString() {
-        return "ChatLieu{" + '}';
+        return tenChatLieu ;
     }
     
 }
